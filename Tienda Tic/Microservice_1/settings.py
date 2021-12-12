@@ -104,10 +104,10 @@ WSGI_APPLICATION = 'Microservice_1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd52hiva5shppee',
-        'USER': 'qkvurjmaflpcti',
-        'PASSWORD': '3070cdeabe51a718b656ac2a453a18ef9213fec872126e376c0bb20bdc7148a4',
-        'HOST': 'ec2-54-205-232-84.compute-1.amazonaws.com',
+        'NAME': 'd1r9bgomp12m59',
+        'USER': 'fcdgiutuncpkpt',
+        'PASSWORD': '69aa3eabd4ad1384043f649f19024ce25305da8a622a4c036719fa8956e0185b',
+        'HOST': 'ec2-18-210-159-154.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
