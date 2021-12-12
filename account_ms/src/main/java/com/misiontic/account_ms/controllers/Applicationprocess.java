@@ -21,8 +21,7 @@ public class Applicationprocess {
     }
 
     //find a reservation by id
-    public Optional<Request> findRequestById(Long id){
-        return accountRepository.findRequestById(id);
+    public Optional<Request> findRequestById(Long id){ return accountRepository.findRequestById(id);
     }
 
     public void deleteRequestBy(Long id){
@@ -34,19 +33,17 @@ public class Applicationprocess {
 
     }
 
-    //get all reservations
     public List<Request> getAllRequest(){
         return  accountRepository.findAll();
     }
 
-    //update reservation
     public Request updateRequest(Request request){
         addRequest(request);
         return request;
     }
 
 
-    //calculate hours
+
     public ArrayList<Long> TimeByRequest(Request request) {
         ArrayList <Long> time = new ArrayList<>();
         long diff = request.getResponsedate().getTime() - request.getApplicationdate().getTime();
